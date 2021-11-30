@@ -8,7 +8,7 @@ body{
 .header {
     width: 100%;
     height: 80px;
-    background-color: blue;
+    background-color: #4054EB;
     display: flex;
     justify-content: space-between;
 
@@ -30,14 +30,91 @@ body{
 }
 
 .boton {
-    border-radius: 1px;
+   
     justify-content: space-between;
     padding: 30px;
-    color: white
-    font-weight: bolt
+    color: white;
     flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color:#B3B6FF;
+    width: 100%;
+    height: 100%;
+}
+
+
+.contenedor{
+    margin: auto;
+    margin-top: 50px;
+    width: 1500px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nosotros {
+    display: flex;
+    margin-top: 50px; 
+    margin-left: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     
+}
+.parrafo1 {
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.boton1 {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    margin-top: 300px;
+    background-color:#8269EB;
+    border: none;
+    height: 45px;
+    width: 70%;
+    border-radius: 25px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+.boton2 {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    margin-top: 300px;
+    background-color:#8269EB;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 70%;
+    border-radius: 25px;
+}
+.imagenlogo {
+    width: 90%;
+    height: 70%;
+    margin-right: 50px;
+   
 }
